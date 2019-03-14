@@ -2,7 +2,7 @@
 Repository for Ikerlan KONNEKT hackathon.
 
 <p align="center">
-  <img width="500" height="500" src="https://www.ikerlan.es/img/ikerlan-konnekt/logo-footer.png">
+  <img width="350" height="351" src="https://www.ikerlan.es/img/ikerlan-konnekt/logo-footer.png">
 </p>
 
 
