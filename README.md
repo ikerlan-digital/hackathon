@@ -15,7 +15,7 @@ The different task are described in each folder:
  * [Internet of Things (IoT)](https://github.com/ikerlan2015/hackathon/tree/master/iot)
  * [Cloud](https://github.com/ikerlan2015/hackathon/tree/master/cloud)
 
-See the ```task.md``` file for instructions in each folder for further instructions. 
+See the ```task.md``` file in each folder for further instructions. 
 
 ## Contact 
 
