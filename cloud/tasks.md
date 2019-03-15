@@ -1,6 +1,9 @@
 # Cloud related tasks
 
-Ir order to access to your server instance a private key will provided. 
+Ir order to access to your server instance a private key will provided.
+<p align="center">
+  <img width="600" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/cloud-arch.png">
+</p>
 
 ## Configure an MQTT Broker 
 
