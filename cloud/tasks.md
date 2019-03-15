@@ -18,23 +18,26 @@ The first task involves installing anc configuring an MQTT Broker such as [Mosqu
 
 ## Develop a REST API capable of getting data stored on the Time Series Database
 
- * Develop a small REST API that is able to extract data from the Time Series Database:
-   * Springboot 
-   * Flask
+ * Develop a small REST API that is able to extract data from the Time Series Database, two options:
+   * [Springboot](https://spring.io/projects/spring-boot)
+   * [Flask](https://flask-restful.readthedocs.io/en/latest/)
 
 ## Develop a Dashboard in order to be able to see incoming data
 
-Install an configure Grafana in order to make an easy visualization of the incoming data.
-
-## Use Docker and docker-compose to Dockerize your solution
-
-Install docker and make scripts for all the developed components. 
+Install an configure [Grafana](https://grafana.com/) in order to make an easy visualization of the incoming data.
 
 ## Real Time processing of incoming data
 
-Install and configure a relational database such as MySql or Posgres 
+First install and configure a relational database such as MySql or Posgres.
+Then develop a small program that makes stores and alarm on the relational database when a sensor data is above a given threshold. 
 
 ## Make a small machine learning model using the historical data stored in the time series Database
+
+
+
+## Use Docker and docker-compose to Dockerize your solution 
+
+Install docker and make scripts for all the developed components. 
 
 
 
