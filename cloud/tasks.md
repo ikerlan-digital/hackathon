@@ -37,7 +37,7 @@ The first task involves installing anc configuring an MQTT Broker such as [Mosqu
 
  * First install and configure a relational database such as [MySql](https://www.mysql.com/) or [PostgreSQL](https://www.postgresql.org/).
  * Then develop a small program that makes stores and alarm on the relational database when a sensor data is above a given threshold. 
- * Use a program that connects to the database (e.g. [DBVeaber](https://dbeaver.io/)).
+ * Use a program that connects to the database (e.g. [DBVeaber](https://dbeaver.io/)) for showing that your program works.
 
 ## Make machine learning model using the historical data stored in the time series database
 
