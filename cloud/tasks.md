@@ -1,9 +1,12 @@
 # Cloud related tasks
 
-Ir order to access to your server instance a private key will provided.
+Ir order to access to your server instance a private key will provided. 
+The overview of the "final" architecture can be seen next: 
 <p align="center">
-  <img width="600" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/cloud-arch.png">
+  <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/cloud-arch.png">
 </p>
+
+Python or Java knowledge is required to fulfill the following tasks (it´s your desision!).
 
 ## Configure an MQTT Broker 
 
@@ -31,11 +34,10 @@ Install an configure [Grafana](https://grafana.com/) in order to make an easy vi
 
 ## Real Time processing of incoming data
 
-First install and configure a relational database such as MySql or Posgres.
+First install and configure a relational database such as MySql or PostgreSQL.
 Then develop a small program that makes stores and alarm on the relational database when a sensor data is above a given threshold. 
 
 ## Make a small machine learning model using the historical data stored in the time series Database
-
 
 
 ## Use Docker and docker-compose to Dockerize your solution 
