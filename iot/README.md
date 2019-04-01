@@ -57,6 +57,10 @@ https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
 
 - HTTP (REST)
 
+- CoAP
+
+- MQTT-SN
+
 
 ### Lenguajes de programación sugeridos
 - Python
