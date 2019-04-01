@@ -29,13 +29,17 @@ El nodo edge está implementado en la segunda Raspberry Pi.
 
 ### Ingesta de datos desde nodos sensores
 Debe implementar un servidor o broker que permita recibir los mensajes del nodo sensor (Broker MQTT como Mosquitto, Servidor/API Rest en caso de HTTP, etc.).
+
 **TIP**: En la Raspberry se encuentra preinstalado el broker MQTT Mosquito.
 
 ### Gateway(bridge) con la nube
 El nodo edge debe hacer de puente con Internet. Para ello, debe mandar a un servidor MQTT remoto todos los datos agregados.
 Estará habilitado un servidor remoto de prueba para desarrollo en la IP 192.168.1.222. Se debe publicar en el topic "NombreEquipo" para no colisionar con otros equipos.
+
 **TIP**: Con las aplicaciones "mosquitto_pub" y "mosquitto_sub" preinstaladas en las Raspberrys se puede publicar y subscribirse de forma manual para acelerar el desarrollo y testear.
+
 EJ: mosquitto_sub -h "192.168.1.222" -t "NombreEquipo" permite subscribirse al topic "NombreEquipo" y ver que se recibe en el.
+
 EJ: mosquitto_pub -h "192.168.1.222" -t "NombreEquipo" -m "TEST" permite publicar un mensaje en el topic "NombreEquipo".
 
 ### Inteligencia
