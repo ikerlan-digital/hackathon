@@ -1,8 +1,8 @@
-## Reto: Internet of Things
+# Reto: Internet of Things
 
 El reto Internet of Things del hackathon se enfoca en la implementación de un esquema de monitorización y control remoto utilizando un esquema de Sensor<->Edge<->Cloud.
 
-# Protocolos comunicaciones IoT
+## Protocolos comunicaciones IoT
 Los protocolos estándar de comunicaciones IoT más comunes son los siguientes:
 
 - MQTT (Standard IoT Protocol)
@@ -15,7 +15,7 @@ TODO
 - CoAP (UDP-based)
 TODO
 
-# Lenguajes de programación sugeridos
+## Lenguajes de programación sugeridos
 - Python
 - C/C++
 - Java
