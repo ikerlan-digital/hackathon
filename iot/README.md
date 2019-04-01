@@ -6,7 +6,9 @@ El reto Internet of Things del hackathon se enfoca en la implementación de un e
 Los protocolos estándar de comunicaciones IoT más comunes son los siguientes:
 
 - MQTT (Standard IoT Protocol)
+
 https://github.com/mqtt/mqtt.github.io/wiki
+
 https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
 
 - HTTP (REST)
