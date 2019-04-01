@@ -9,10 +9,11 @@ El nodo sensor está implementado en una de las Raspberry Pi del reto. Este nodo
 Este nodo debe ser capaz de parsear los mensajes recibidos a través de línea serie y transformarlos a un formato estándar basado en JSON.
 El formato de los mensajes es el siguiente:
 - 1er Byte: tipo de mensaje:
-  - 0x00: Temperatura
-  - 0x01: Velocidad aspas
-  - 0x02: Energía producida (kWh)
-  - 0x03: 
+  - 0x01: Temperatura
+  - 0x02: Velocidad aspas
+  - 0x03: Energía producida (kWh)
+  - 0x04: Velocidad viento
+  - 0x05: Presión turbina
   - 0xFF: Alarma
 - 2-9do Byte: Dato UInt256 (unidad 0.01), por ejemplo, 2452 sería 24,52. En el caso de la alarma es un String de 8 caracteres.
 - 10o Byte: Byte fin mensaje (0x00)
