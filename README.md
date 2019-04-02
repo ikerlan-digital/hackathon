@@ -25,7 +25,7 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
  * [Cloud](https://github.com/ikerlan2015/hackathon/tree/master/cloud)
 
 ## Keywords interesantes por reto
-* Transversales:
+### Transversales:
   * Administracion
     * Linux
     * SSH
@@ -35,14 +35,14 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
     * MQTT
     * HTTP (REST)
   * **StackOverflow!**
-* Reto IoT:
+### Reto IoT:
   * Raspberry Pi
   * Linea serie (Linux tty)
   * WSN & Edge computing
   * Programacion:
     * Python
     * C/C++
-* Reto Cloud:
+### Reto Cloud:
   * Bases de datos:
     * Time series database (InfluxDB)
     * Relational database (MySQL, PostgreSQL, etc.)
