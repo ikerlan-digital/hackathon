@@ -6,7 +6,7 @@ The overview of the "final" architecture can be seen next:
   <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/cloud-arch.png">
 </p>
 
-Python or Java knowledge is required to fulfill the following tasks (it´s your desision!).
+Python or Java knowledge is required to fulfill the following tasks (it´s your decision!).
 
 ## Configure an MQTT Broker 
 
@@ -31,12 +31,12 @@ The first task involves installing and configuring an MQTT Broker such as [Mosqu
 
 ## Develop a Dashboard in order to be able to see incoming data
 
- * Install an configure [Grafana](https://grafana.com/) in order to develop on top of it an easy visualization of the incoming data (develop a Grafana ```dashboard```). 
+ * Install and configure [Grafana](https://grafana.com/) in order to develop on top of it an easy visualization of the incoming data (develop a Grafana ```dashboard```). 
 
 ## Real Time processing of incoming data
 
  * First install and configure a relational database such as [MySql](https://www.mysql.com/) or [PostgreSQL](https://www.postgresql.org/).
- * Then develop a small program that makes stores and alarm on the relational database when a sensor data is above a given threshold. 
+ * Then develop a small program that makes stores and fire an alarm on the relational database when a sensor data is above a given threshold. 
  * Use a program that connects to the database (e.g. [DBVeaber](https://dbeaver.io/)) for showing that your program works.
 
 ## Make machine learning model using the historical data stored in the time series database
