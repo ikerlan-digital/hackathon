@@ -17,6 +17,13 @@ Los siguientes elementos son necesarios para desarrollar el hackathon
   * Cliente SCP/SFTP (p.e. [WinSCP](https://winscp.net/eng/index.php))
   * API tester (p.e. [Postman](https://www.getpostman.com/))
 
+## Retos
+Una pequeña guía para cada reto está disponible en los siguientes links:
+
+ * [Hardware (HW)](https://github.com/ikerlan2015/hackathon/tree/master/hw)
+ * [Internet of Things (IoT)](https://github.com/ikerlan2015/hackathon/tree/master/iot)
+ * [Cloud](https://github.com/ikerlan2015/hackathon/tree/master/cloud)
+
 ## Keywords interesantes por reto
 * Transversales:
   * Administracion
@@ -44,13 +51,6 @@ Los siguientes elementos son necesarios para desarrollar el hackathon
   * Programacion:
     * Python
     * Java
-
-## Retos
-Una pequeña guía para cada reto está disponible en los siguientes links:
-
- * [Hardware (HW)](https://github.com/ikerlan2015/hackathon/tree/master/hw)
- * [Internet of Things (IoT)](https://github.com/ikerlan2015/hackathon/tree/master/iot)
- * [Cloud](https://github.com/ikerlan2015/hackathon/tree/master/cloud)
 
 ## Contacto
 
