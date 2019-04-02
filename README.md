@@ -16,6 +16,7 @@ Los siguientes elementos son necesarios para desarrollar el hackathon
   * Cliente SSH (p.e. Putty)
   * Cliente MQTT (p.e. MQTTFx)
   * Cliente SCP/SFTP (p.e. WinSCP)
+  * API tester (Postman)
 
 
 ## Tips!
