@@ -27,21 +27,24 @@ El nodo debe guardar en un log o mostrar en pantalla el parseo en tiempo real de
 ### Envío de datos al nodo edge
 Este nodo se debe comunicar a través de WiFi con el nodo edge para enviarle los mensajes en formato JSON utilizando un protocolo IoT (MQTT, REST/HTTP, CoAP, MQTT-SN, etc.).
 
-Un ejemplo de JSONs son los siguientes
+Un ejemplo de JSONs son los siguientes (el timestamp esta definido como Linux Epoch)
 ```
 {
+  "timestamp": 1554199331,
   "type": "temp",
   "value": 24.52
 }
 ```
 ```
 {
+  "timestamp": 1554199331,
   "type": "alarm",
   "value": "CRITICAL"
 }
 ```
 ```
 {
+  "timestamp": 1554199331,
   "type": "pressure",
   "value": 1500
 }
