@@ -10,7 +10,7 @@ Python or Java knowledge is required to fulfill the following tasks (it´s your 
 
 ## Configure an MQTT Broker 
 
-The first task involves installing anc configuring an MQTT Broker such as [Mosquitto](https://mosquitto.org/). 
+The first task involves installing and configuring an MQTT Broker such as [Mosquitto](https://mosquitto.org/). 
 
  * Download and configure mosquitto with at least **password** authentication. 
  * Test that your Edge node connects and that it´s able to send/receive messages. 
@@ -31,7 +31,7 @@ The first task involves installing anc configuring an MQTT Broker such as [Mosqu
 
 ## Develop a Dashboard in order to be able to see incoming data
 
- * Install an configure [Grafana](https://grafana.com/) in order to develop on top off it an easy visualization of the incoming data (develop a Grafana ```dashboard```). 
+ * Install an configure [Grafana](https://grafana.com/) in order to develop on top of it an easy visualization of the incoming data (develop a Grafana ```dashboard```). 
 
 ## Real Time processing of incoming data
 
