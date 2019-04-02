@@ -7,7 +7,11 @@ Una de las Raspberry Pi hará el papel de nodo sensor mientras que la otra reali
 
 Cada Raspberry Pi viene preinstalada con un sistema operativo GNU/Linux Raspbian basado en Debian. El sistema viene preinstalado con aplicaciones básicas para la implementación de la solución de los retos. Se puede utilizar apt-get para instalar aplicaciones.
 
-## Acceso remoto
+## Conectividad
+
+Las Raspberry Pi tienen dos interfaces de red:
+- Ethernet: Sólo para acceso de administración desde un portatil a través de la IP 192.168.0.1
+- Wifi: Para acceso a Internet y a otras raspberry pi
 
 Las Raspberry Pi vienen previamente configuradas para conectarse automáticamente al punto de acceso WiFi configurado en la sala por Ikerlan. Este punto de acceso es únicamente para las Raspberry Pi, los ordenadores portatiles deben conectarse al WiFi de la escuela.
 
