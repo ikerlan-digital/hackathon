@@ -5,7 +5,6 @@ Repositorio para el hackathon de Ikerlan KONNEKT
   <img width="350" height="351" src="https://www.ikerlan.es/img/ikerlan-konnekt/logo-footer.png">
 </p>
 
-
 ## Requisitos
 Los siguientes elementos son necesarios para desarrollar el hackathon
 
@@ -18,8 +17,35 @@ Los siguientes elementos son necesarios para desarrollar el hackathon
   * Cliente SCP/SFTP (p.e. [WinSCP](https://winscp.net/eng/index.php))
   * API tester (p.e. [Postman](https://www.getpostman.com/))
 
+## Keywords interesantes por reto
+* Transversales:
+  * Administracion
+    * Linux
+    * SSH
+  * Modelo datos:
+    * JSON
+  * Comunicaciones:
+    * MQTT
+    * HTTP (REST)
+  * **StackOverflow!**
+* Reto IoT:
+  * Raspberry Pi
+  * Linea serie (Linux tty)
+  * WSN & Edge computing
+  * Programacion:
+    * Python
+    * C/C++
+* Reto Cloud:
+  * Bases de datos:
+    * Time series database (InfluxDB)
+    * Relational database (MySQL, PostgreSQL, etc.)
+  * Visualización: Graphana
+  * Consultas HTTP: REST API (Python Flask, Java Spring, etc.)
+  * Programacion:
+    * Python
+    * Java
 
-## Tips!
+## Retos
 Una pequeña guía para cada reto está disponible en los siguientes links:
 
  * [Hardware (HW)](https://github.com/ikerlan2015/hackathon/tree/master/hw)
