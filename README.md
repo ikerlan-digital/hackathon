@@ -1,4 +1,4 @@
-# Hackathon
+# Hackathon Ikerlan KONNEKT
 Repositorio para el hackathon de Ikerlan KONNEKT
 
 <p align="center">
