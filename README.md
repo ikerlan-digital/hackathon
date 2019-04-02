@@ -6,8 +6,19 @@ Repositorio para el hackathon de Ikerlan KONNEKT
 </p>
 
 
-## Tips!
+## Requisitos
+Los siguientes elementos son necesarios para desarrollar el hackathon
 
+* Ordenador portátil (recomendado uno por persona)
+* Cargador
+* Cable ethernet (si es posible)
+* Software:
+  * Cliente SSH (p.e. Putty)
+  * Cliente MQTT (p.e. MQTTFx)
+  * Cliente SCP/SFTP (p.e. WinSCP)
+
+
+## Tips!
 Una pequeña guía para cada reto está disponible en los siguientes links:
 
  * [Hardware (HW)](https://github.com/ikerlan2015/hackathon/tree/master/hw)
