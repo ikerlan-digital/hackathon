@@ -18,8 +18,8 @@ El formato de los mensajes es el siguiente:
   - 0x04: Velocidad viento
   - 0x05: Presión turbina
   - 0xFF: Alarma
-- 2-7do Byte: Dato UInt64 (unidad 0.01), por ejemplo, 2452 sería 24,52. En el caso de la alarma es un String de 8 caracteres.
-- 8o Byte: Byte fin mensaje (0x00)
+- 2-9do Byte: Dato UInt64 (unidad 0.01), por ejemplo, 2452 sería 24,52. En el caso de la alarma es un String de 8 caracteres.
+- 10o Byte: Byte fin mensaje (0x00)
 
 ### Visualizacion y log
 El nodo debe guardar en un log o mostrar en pantalla el parseo en tiempo real del mensaje, mostrando el tipo y el dato traducido a float.
