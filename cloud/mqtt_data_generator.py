@@ -67,11 +67,11 @@ def gen_msg(type):
     if type == 1:
         msg['temp'] = gen_temp()
     elif type == 2:
-        msg['speed'] = gen_speed()
+        msg['speed_blade'] = gen_speed()
     elif type == 3:
-        msg['power'] = gen_power()
+        msg['energy'] = gen_power()
     elif type == 4:
-        msg['wind'] = gen_wind()
+        msg['speed_wind'] = gen_wind()
     elif type == 5:
         msg['pressure'] = gen_pressure()
     elif type == 255:
