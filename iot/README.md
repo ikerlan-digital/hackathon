@@ -21,13 +21,17 @@ El formato de los mensajes es el siguiente:
 - 2-9do Byte: Dato UInt64 (BigEndian) (unidad 0.01), por ejemplo, 2452 sería 24,52. En el caso de la alarma es un String de 8 caracteres.
 - 10o Byte: Byte fin mensaje (0x00)
 
-### Visualizacion y log
-El nodo debe guardar en un log o mostrar en pantalla el parseo en tiempo real del mensaje, mostrando el tipo y el dato traducido a float.
+| Typo de mensaje | Dato | Fin de mensaje |
+| --- | --- | --- |
+| 1 Byte | 8 Bytes | 1 Byte |
+
+### Visualizacion y logging
+El nodo debe guardar en un log (archivo de texto) o mostrar en pantalla el parseo en tiempo real del mensaje, mostrando el tipo y el dato traducido a float.
 
 ### Envío de datos al nodo edge
-Este nodo se debe comunicar a través de WiFi con el nodo edge para enviarle los mensajes en formato JSON utilizando un protocolo IoT (MQTT, REST/HTTP, CoAP, MQTT-SN, etc.).
+Este nodo se debe comunicar a través de WiFi con el nodo edge para enviarle los mensajes en formato JSON empleando un protocolo IoT (MQTT, REST/HTTP, CoAP, MQTT-SN, etc.).
 
-Un ejemplo de JSONs son los siguientes (el timestamp esta definido como Linux Epoch)
+Los JSON deben cumplir el siguiente modelo de datos (el timestamp esta definido como Linux Epoch)
 ```
 {
   "timestamp": 1554199331,
@@ -38,8 +42,22 @@ Un ejemplo de JSONs son los siguientes (el timestamp esta definido como Linux Ep
 ```
 {
   "timestamp": 1554199331,
-  "type": "alarm",
-  "value": "CRITICAL"
+  "type": "speed_blade",
+  "value": 84.52
+}
+```
+```
+{
+  "timestamp": 1554199331,
+  "type": "energy",
+  "value": 24.52
+}
+```
+```
+{
+  "timestamp": 1554199331,
+  "type": "speed_wind",
+  "value": 22.52
 }
 ```
 ```
@@ -47,6 +65,13 @@ Un ejemplo de JSONs son los siguientes (el timestamp esta definido como Linux Ep
   "timestamp": 1554199331,
   "type": "pressure",
   "value": 1500
+}
+```
+```
+{
+  "timestamp": 1554199331,
+  "type": "alarm",
+  "value": "CRITICAL"
 }
 ```
 
@@ -78,18 +103,16 @@ El nodo edge puede implementar inteligencia para desarrollar un sistema de alarm
 Los protocolos estándar de comunicaciones IoT más comunes son los siguientes:
 
 - MQTT (Standard IoT Protocol)
-
-https://github.com/mqtt/mqtt.github.io/wiki
-
-https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
-
+  - https://github.com/mqtt/mqtt.github.io/wiki
+  - https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
 - HTTP (REST)
-
+  - https://spring.io/understanding/REST
 - CoAP
-
+  - https://coap.technology/
 - MQTT-SN
-
+  - http://www.steves-internet-guide.com/mqtt-sn/
 
 ### Lenguajes de programación sugeridos
-- Python
-- C
+- Python ([What Is](https://www.python.org/))
+- C/C++ ([What Is](https://www.programiz.com/c-programming))
+- JavaScript ([NodeJS](https://nodejs.org/en/about/), [Node-RED](https://nodered.org/))
