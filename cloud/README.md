@@ -48,5 +48,55 @@ The first task involves installing and configuring an MQTT Broker such as [Mosqu
  * See ```docker``` folder for further instructions.
 
 
+# Tareas relacionadas con el cloud
+
+Para poder acceder a tu servidor se os proveerá de una clave privada.
+Un diagrama de la arquitectura "final" puede verse en el siguiente diagrama:
+<p align="center">
+  <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/cloud-arch.png">
+</p>
+
+Las tareas se pueden resolver con conocimiento de Python o Java. (es vuestra decisión!). 
+
+## Configurar un Broker MQTT
+
+La primera tarea es instalar y configurar un Broker MQTT como [Mosquitto](https://mosquitto.org/). 
+
+ * Descargar y configurar el Broker con autenticación por **password** como mínimo. 
+ * Testear que vuestros nodos se conectan al Broker y son capaces de enviar y recibir mensajes. 
+ 
+## Guardar datos de sensores en una base de datos de Time Series
+
+ * Instalar una base de datos de Time Series como puede ser [InfluxDB](https://portal.influxdata.com/downloads/)
+ * Desarrollar un programa que almacene los datos recibidos en el Broker en la base de datos:
+    * Bien desarrollando un pequeño programa (python script / Java program, etc).
+    * Bien usando [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) con el plugin de MQTT [plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/mqtt_consumer)
+
+## Desarrollar una API REST que sea capaz de extraer datos de la base de datos
+
+ * Desarrollar una pequeña API REST que sea capaz de extraer datos de la base de datos, dos opciones:
+   * [Springboot](https://spring.io/projects/spring-boot)
+   * [Flask](https://flask-restful.readthedocs.io/en/latest/)
+ * Puedes usar una herramienta como [Postman](https://www.getpostman.com/downloads/) para testear la API. 
+
+## Desarrollar un Dashboard para visualizar en tiempo real los datos entrantes
+
+ * Instalar y configurar [Grafana](https://grafana.com/) para poder desarrollar un ```dashboard``` de Grafana manera sencilla de tal forma que se puedan ver los datos de entrada.
+
+## Procesamiento en tiempo real de los datos
+
+ * Primero instalar y configurar una base de datos relacional como [MySql](https://www.mysql.com/) ó [PostgreSQL](https://www.postgresql.org/).
+ * Desarrollar un pequeño programa que guarde una alarma en esa BD cuando cierto sensor pase de cierto valor.
+ * Usar un programa como (e.g. [DBVeaber](https://dbeaver.io/)) para demostrar que vuestro programa funciona.
+
+## Realizar un modelo de machine learning en base a datos historicos almacenados en la base de datos de time series
+
+ * Mirar el directorio ```ml``` para más instrucciones.
+
+## Usar Docker y docker-compose para "dockerizar" vuestra solución 
+
+ * Mirar el directorio ```docker``` para más instrucciones.
+
+
 
 
