@@ -24,7 +24,7 @@ __¿Cuál son los datos de conexión de la Raspberry?__
 - Usuario: pi
 - Contraseña: raspberry
 
-Para poder conectaros debéis setear vuestra conexión de Ethernet con IP fija en el rango IP de la Raspberry, por ejemplo, 192.168.0.2.
+Para poder conectaros debéis setear vuestra conexión de Ethernet con IP fija en el rango IP de la Raspberry, por ejemplo: 192.168.0.2.
 https://www.redeszone.net/windows/ip-privada-fija-en-windows-7/
 
 __¿Cómo conectarse mediante SSH a la Raspberry?__
