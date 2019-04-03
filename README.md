@@ -29,10 +29,10 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
     * Linux ([Usage](https://www.raspberrypi.org/documentation/linux/usage/))
     * SSH ([HowTo](https://www.howtogeek.com/311287/how-to-connect-to-an-ssh-server-from-windows-macos-or-linux/))
   * Modelo datos:
-    * JSON ([What Is] (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON))
+    * JSON ([What Is](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON))
   * Comunicaciones:
     * MQTT ([What Is](https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/))
-    * HTTP (REST) ([What Is] (https://spring.io/understanding/REST))
+    * HTTP (REST) ([What Is](https://spring.io/understanding/REST))
   * **StackOverflow!**
 ### Reto IoT:
   * Raspberry Pi
