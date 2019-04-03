@@ -21,7 +21,7 @@ El formato de los mensajes es el siguiente:
 - 2-9do Byte: Dato UInt64 (BigEndian) (unidad 0.01), por ejemplo, 2452 sería 24,52. En el caso de la alarma es un String de 8 caracteres.
 - 10o Byte: Byte fin mensaje (0x00)
 
-| Typo de mensaje | Dato | Fin de mensaje |
+| Tipo de mensaje | Dato | Fin de mensaje |
 | --- | --- | --- |
 | 1 Byte | 8 Bytes | 1 Byte |
 
