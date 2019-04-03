@@ -1,6 +1,6 @@
 # Cloud related tasks
 
-Ir order to access to your server instance a private key will provided. 
+Ir order to access to your server instance, a private key will be provided.
 The overview of the "final" architecture can be seen next: 
 <p align="center">
   <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/cloud-arch.png">
