@@ -26,21 +26,21 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
 ## Keywords interesantes por el reto
 ### Transversales:
   * Administracion
-    * Linux
-    * SSH ([howto](https://www.howtogeek.com/311287/how-to-connect-to-an-ssh-server-from-windows-macos-or-linux/))
+    * Linux ([Usage](https://www.raspberrypi.org/documentation/linux/usage/))
+    * SSH ([HowTo](https://www.howtogeek.com/311287/how-to-connect-to-an-ssh-server-from-windows-macos-or-linux/))
   * Modelo datos:
-    * JSON
+    * JSON ([What Is] (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON))
   * Comunicaciones:
-    * MQTT
-    * HTTP (REST)
+    * MQTT ([What Is](https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/))
+    * HTTP (REST) ([What Is] (https://spring.io/understanding/REST))
   * **StackOverflow!**
 ### Reto IoT:
   * Raspberry Pi
   * Linea serie (Linux tty)
-  * WSN & Edge computing
   * Programacion:
     * Python
     * C/C++
+    * JavaScript
 ### Reto Cloud:
   * Bases de datos:
     * Time series database (InfluxDB)
