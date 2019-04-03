@@ -96,7 +96,6 @@ def mqtt_send(data):
 
 def gen_data():
     for i in range(1, 6):
-        print(i)
         mqtt_send(gen_msg(i))
     # Only generate alarms 1%
     if uniform(0, 1) < 0.01:
