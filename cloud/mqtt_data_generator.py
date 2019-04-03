@@ -89,9 +89,10 @@ def gen_msg(type):
 
 def mqtt_send(data):
     try:
-        publish.single("NombreEquipo", data, hostname="127.0.0.1")
-    except:
-        print("ERROR: MQTT publish error")
+        # TODO: Set topic name and auth
+        publish.single("NombreEquipo", data, hostname="127.0.0.1", auth={'username': 'ik', 'password': 'ik'})
+    except Exception as e:
+        print("ERROR: MQTT publish error: ", e)
 
 
 def gen_data():
