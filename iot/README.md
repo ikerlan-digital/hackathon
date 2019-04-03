@@ -25,7 +25,7 @@ El formato de los mensajes es el siguiente:
 | --- | --- | --- |
 | 1 Byte | 8 Bytes | 1 Byte |
 
-### Visualizacion y log
+### Visualizacion y logging
 El nodo debe guardar en un log (archivo de texto) o mostrar en pantalla el parseo en tiempo real del mensaje, mostrando el tipo y el dato traducido a float.
 
 ### Envío de datos al nodo edge
