@@ -26,10 +26,10 @@ El formato de los mensajes es el siguiente:
 | 1 Byte | 8 Bytes | 1 Byte |
 
 ### Visualizacion y log
-El nodo debe guardar en un log o mostrar en pantalla el parseo en tiempo real del mensaje, mostrando el tipo y el dato traducido a float.
+El nodo debe guardar en un log (archivo de texto) o mostrar en pantalla el parseo en tiempo real del mensaje, mostrando el tipo y el dato traducido a float.
 
 ### Envío de datos al nodo edge
-Este nodo se debe comunicar a través de WiFi con el nodo edge para enviarle los mensajes en formato JSON utilizando un protocolo IoT (MQTT, REST/HTTP, CoAP, MQTT-SN, etc.).
+Este nodo se debe comunicar a través de WiFi con el nodo edge para enviarle los mensajes en formato JSON empleando un protocolo IoT (MQTT, REST/HTTP, CoAP, MQTT-SN, etc.).
 
 Los JSON deben cumplir el siguiente modelo de datos (el timestamp esta definido como Linux Epoch)
 ```
@@ -42,8 +42,22 @@ Los JSON deben cumplir el siguiente modelo de datos (el timestamp esta definido 
 ```
 {
   "timestamp": 1554199331,
-  "type": "alarm",
-  "value": "CRITICAL"
+  "type": "speed_blade",
+  "value": 84.52
+}
+```
+```
+{
+  "timestamp": 1554199331,
+  "type": "energy",
+  "value": 24.52
+}
+```
+```
+{
+  "timestamp": 1554199331,
+  "type": "speed_wind",
+  "value": 22.52
 }
 ```
 ```
@@ -56,22 +70,8 @@ Los JSON deben cumplir el siguiente modelo de datos (el timestamp esta definido 
 ```
 {
   "timestamp": 1554199331,
-  "type": "wind",
-  "value": 22.52
-}
-```
-```
-{
-  "timestamp": 1554199331,
-  "type": "speed",
-  "value": 84.52
-}
-```
-```
-{
-  "timestamp": 1554199331,
-  "type": "power",
-  "value": 24.52
+  "type": "alarm",
+  "value": "CRITICAL"
 }
 ```
 
@@ -103,11 +103,8 @@ El nodo edge puede implementar inteligencia para desarrollar un sistema de alarm
 Los protocolos estándar de comunicaciones IoT más comunes son los siguientes:
 
 - MQTT (Standard IoT Protocol)
-
-https://github.com/mqtt/mqtt.github.io/wiki
-
-https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
-
+ - https://github.com/mqtt/mqtt.github.io/wiki
+ - https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
 - HTTP (REST)
 
 - CoAP
