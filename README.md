@@ -36,7 +36,7 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
   * **StackOverflow!**
 ### Reto IoT:
   * Raspberry Pi ([What Is](https://www.raspberrypi.org/))
-  * Linea serie (Linux tty) [What Is](https://askubuntu.com/questions/481906/what-does-tty-stand-for)
+  * Linea serie (Linux tty) ([What Is](https://askubuntu.com/questions/481906/what-does-tty-stand-for))
   * Programacion:
     * Python ([What Is](https://www.python.org/))
     * C/C++ ([What Is](https://www.programiz.com/c-programming))
