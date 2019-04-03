@@ -35,21 +35,21 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
     * HTTP (REST) ([What Is](https://spring.io/understanding/REST))
   * **StackOverflow!**
 ### Reto IoT:
-  * Raspberry Pi [What Is](https://www.raspberrypi.org/)
+  * Raspberry Pi ([What Is](https://www.raspberrypi.org/))
   * Linea serie (Linux tty) [What Is](https://askubuntu.com/questions/481906/what-does-tty-stand-for)
   * Programacion:
-    * Python [What Is](https://www.python.org/)
-    * C/C++ [What Is](https://www.programiz.com/c-programming)
-    * JavaScript ([NodeJS](https://nodejs.org/en/about/), [Node-RED]{https://nodered.org/})
+    * Python ([What Is](https://www.python.org/))
+    * C/C++ ([What Is](https://www.programiz.com/c-programming))
+    * JavaScript ([NodeJS]{https://nodejs.org/en/about/}, [Node-RED]{https://nodered.org/})
 ### Reto Cloud:
   * Bases de datos:
     * Time series database ([InfluxDB]{https://www.influxdata.com/})
     * Relational database ([MySQL]{https://www.mysql.com/}, [PostgreSQL]{https://www.postgresql.org/}, etc.)
   * Visualización: [Graphana]{https://grafana.com/}
-  * Consultas HTTP: REST API ([Python Flask](http://flask.pocoo.org/), [Java Spring](https://spring.io/), etc.)
+  * Consultas HTTP: REST API ([Python Flask](http://flask.pocoo.org/), [Java Spring]{https://spring.io/}, etc.)
   * Programacion:
-    * Python [What Is](https://www.python.org/)
-    * Java [What Is](https://www.edureka.co/blog/what-is-java/)
+    * Python [What Is]{https://www.python.org/}
+    * Java [What Is]{https://www.edureka.co/blog/what-is-java/}
 
 ## Contacto
  * **Marco Gonzalez**: marco dot gonzalez at ikerlan dot es
