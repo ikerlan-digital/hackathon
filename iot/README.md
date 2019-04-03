@@ -103,15 +103,16 @@ El nodo edge puede implementar inteligencia para desarrollar un sistema de alarm
 Los protocolos estándar de comunicaciones IoT más comunes son los siguientes:
 
 - MQTT (Standard IoT Protocol)
- - https://github.com/mqtt/mqtt.github.io/wiki
- - https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
+  - https://github.com/mqtt/mqtt.github.io/wiki
+  - https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/
 - HTTP (REST)
-
+  - https://spring.io/understanding/REST
 - CoAP
-
+  - https://coap.technology/
 - MQTT-SN
-
+  - http://www.steves-internet-guide.com/mqtt-sn/
 
 ### Lenguajes de programación sugeridos
-- Python
-- C
+- Python ([What Is](https://www.python.org/))
+- C/C++ ([What Is](https://www.programiz.com/c-programming))
+- JavaScript ([NodeJS](https://nodejs.org/en/about/), [Node-RED](https://nodered.org/))
