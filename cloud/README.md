@@ -15,6 +15,12 @@ The first task involves installing and configuring an MQTT Broker such as [Mosqu
  * Download and configure mosquitto with at least **password** authentication. 
  * Test that your Edge node connects and that it´s able to send/receive messages. 
  
+## MQTT Data Generator
+
+A python3 script is provided in this folder as a random data generator to provide the basic data to test the system.
+
+You need to install the paho-mqtt dependency (python3 -m pip install paho-mqtt) and modify the code to configure the MQTT authentication and topic.
+ 
 ## Store sensor data in a Time Series Database 
 
  * Install a time series database such as [InfluxDB](https://portal.influxdata.com/downloads/)
