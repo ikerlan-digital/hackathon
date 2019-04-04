@@ -68,8 +68,7 @@ int init_serial(char *port)
 int read_serial(int fd, char *buf, int max_size)
 {
     tcflush(fd, TCIFLUSH);
-    int bytes_read = read(fd, buf, max_size);
-    return bytes_read;
+    return read(fd, buf, max_size);
 }
 
 void close_serial(int fd)

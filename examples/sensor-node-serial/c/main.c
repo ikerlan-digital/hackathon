@@ -15,11 +15,14 @@ int main(int argc, char **argv)
     char buf[100];
     for (int i = 0; i < 10; ++i)
     {
-        int n = read_serial(fd, buf, sizeof(buf));
-        /* Ensure NUL terminated string */
-        buf[n] = '\0';
+        int n = read_serial(fd, buf, 100);
         printf("Bytes Read: %d\n", n);
-        printf("Data Read: %s\n", buf);
+        printf("Data Read: ");
+        for (int j = 0; j < n; ++j)
+        {
+            printf("0x%02x ", buf[j]);
+        }
+        printf("\n");
     }
     close_serial(fd);
 }
