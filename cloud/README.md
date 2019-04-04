@@ -7,13 +7,6 @@ The overview of the "final" architecture can be seen next:
 </p>
 
 Python or Java knowledge is required to fulfill the following tasks (it´s your decision!).
-
-## Configure an MQTT Broker 
-
-The first task involves installing and configuring an MQTT Broker such as [Mosquitto](https://mosquitto.org/). 
-
- * Download and configure mosquitto with at least **password** authentication. 
- * Test that your Edge node connects and that it´s able to send/receive messages. 
  
 ## MQTT Data Generator
 
@@ -64,13 +57,13 @@ Un diagrama de la arquitectura "final" puede verse en el siguiente diagrama:
 
 Las tareas se pueden resolver con conocimiento de Python o Java. (es vuestra decisión!). 
 
-## Configurar un Broker MQTT
 
-La primera tarea es instalar y configurar un Broker MQTT como [Mosquitto](https://mosquitto.org/). 
+## MQTT Data Generator
 
- * Descargar y configurar el Broker con autenticación por **password** como mínimo. 
- * Testear que vuestros nodos se conectan al Broker y son capaces de enviar y recibir mensajes. 
- 
+Se provee de un script de python3 script que permite generar datos aleatorios para poder probar el sistema.
+
+Las dependencias necesarias son (python3 -m pip install paho-mqtt), modifica el código para configurar la conexión a MQTT, el topic y la autenticación.
+
 ## Guardar datos de sensores en una base de datos de Time Series
 
  * Instalar una base de datos de Time Series como puede ser [InfluxDB](https://portal.influxdata.com/downloads/)
