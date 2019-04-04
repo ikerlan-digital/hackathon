@@ -55,6 +55,6 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
  * **Internet of Things**: marco.gonzalez@ikerlan.es aitor.ubieta@ikerlan.es
  * **Big data**: aconde@ikerlan.es
  * **Seguridad Industrial**: riglesias@ikerlan.es
- * **Software confiable**: jparra@ikerlane.s
+ * **Software confiable**: jparra@ikerlan.es
 
 Gracias por participar!
