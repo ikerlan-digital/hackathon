@@ -50,9 +50,9 @@ def gen_pressure():
     global pressure
     pressure = pressure + uniform(-1, 1)
     if pressure < min_pressure:
-        pressure = min_presure
+        pressure = min_pressure
     elif pressure > max_pressure:
-        pressure = max_presure
+        pressure = max_pressure
     return pressure
 
 
