@@ -20,7 +20,7 @@ You need to install the paho-mqtt dependency (python3 -m pip install paho-mqtt) 
 ## Store sensor data in a Time Series Database 
 
  * Install a time series database such as [InfluxDB](https://portal.influxdata.com/downloads/)
- * Develop a program that stores data received on the broker on the Time Series database:
+ * Develop a program that 1) reads from MQTT broker the data coming from the edge node and 2) stores it into the Time Series database:
     * You can use whatever you want (python script / Java program, etc) to develop a small program.
     * Another option is to use [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) with its MQTT consumer [plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/mqtt_consumer)
 
@@ -38,7 +38,7 @@ You need to install the paho-mqtt dependency (python3 -m pip install paho-mqtt) 
 ## Real Time processing of incoming data
 
  * First install and configure a relational database such as [MySql](https://www.mysql.com/) or [PostgreSQL](https://www.postgresql.org/).
- * Then develop a small program that makes stores and fire an alarm on the relational database when a sensor data is above a given threshold. 
+ * Then develop a small program that registers into the database an alarm every time a sensor data is above a given threshold. 
  * Use a program that connects to the database (e.g. [DBVeaber](https://dbeaver.io/)) for showing that your program works.
 
 ## Make machine learning model using the historical data stored in the time series database
