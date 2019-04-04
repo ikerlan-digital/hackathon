@@ -6,11 +6,11 @@ Repositorio para el hackathon de Ikerlan KONNEKT
 </p>
 
 ## Requisitos
-Los siguientes elementos son necesarios para desarrollar el hackathon
+Los siguientes elementos son necesarios para desarrollar el hackathon:
 
-* Ordenador portátil (recomendado uno por persona)
-* Cargador
-* Cable ethernet (si es posible)
+* Ordenador portátil (recomendado uno por persona).
+* Cargador.
+* Cable ethernet (si es posible).
 * Software:
   * Cliente SSH (p.e. [Putty](https://www.putty.org/))
   * Cliente MQTT (p.e. [MQTTFx](https://mqttfx.jensd.de/))
@@ -25,7 +25,7 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
 
 ## Keywords interesantes por el reto
 ### Transversales:
-  * Administracion
+  * Administracion:
     * Linux ([Usage](https://www.raspberrypi.org/documentation/linux/usage/))
     * SSH ([HowTo](https://www.howtogeek.com/311287/how-to-connect-to-an-ssh-server-from-windows-macos-or-linux/))
   * Modelo datos:
@@ -33,7 +33,7 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
   * Comunicaciones:
     * MQTT ([What Is](https://randomnerdtutorials.com/what-is-mqtt-and-how-it-works/))
     * HTTP (REST) ([What Is](https://spring.io/understanding/REST))
-  * **StackOverflow!**
+  * **[StackOverflow!](https://stackoverflow.com/)**
 ### Reto IoT:
   * Raspberry Pi ([What Is](https://www.raspberrypi.org/))
   * Linea serie (Linux tty) ([What Is](https://askubuntu.com/questions/481906/what-does-tty-stand-for))
