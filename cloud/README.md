@@ -10,6 +10,16 @@ The overview of the "final" architecture can be seen next:
 </p>
 
 Python or Java knowledge is required to fulfill the following tasks (it´s your decision!).
+
+## Instructions to connect to the Cloud via SSH
+* Convert the key certificate included in your USBs to a valid format for Putty (convert from .pem to .ppk). Follow [these instructions](https://www2.linuxacademy.com/howtoguides/17385-use-putty-to-access-ec2-linux-instances-via-ssh-from-windows/).
+* Use Putty to connect via SSH to the master node:
+    * Hostname (IP): ec2-18-203-246-88.eu-west-1.compute.amazonaws.com
+    * Upload the generated private key (.ppk). In the left panel, go to SHH -> Auth -> Browse
+    * Finally, push Open button
+* Introduce the username within the prompted window (username = ec2-user)
+* Connect via SSH to your personal machine:
+    * ssh -i konnekt.pem ec2-user@<private-ip>
  
 ## MQTT Data Generator
 
@@ -58,7 +68,18 @@ Un diagrama de la arquitectura "final" puede verse en el siguiente diagrama:
   <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/cloud-arch.png">
 </p>
 
-Las tareas se pueden resolver con conocimiento de Python o Java. (es vuestra decisión!). 
+Las tareas se pueden resolver con conocimiento de Python o Java. (es vuestra decisión!).
+
+
+## Instrucciones para conectarse al Cloud via SSH
+* Convertir el certificado incluido en vuestros USBs a un formato válido para Putty (convertir de .pem a .ppk). Seguid [estas instrucciones](https://www2.linuxacademy.com/howtoguides/17385-use-putty-to-access-ec2-linux-instances-via-ssh-from-windows/).
+* Usar Putty para conectaros via SSH al nodo maestro:
+    * Hostname (IP): ec2-18-203-246-88.eu-west-1.compute.amazonaws.com
+    * Añadir la clave privada generada anteriormente (.ppk). En el panel izquierdo, id a SHH -> Auth -> Browse.
+    * Finalmente, pulsar el botón Open.
+* Introducid el nombre de usuario en la ventaña emergente (username = ec2-user)
+* Conectaos vía SSH a vustra máquina personal:
+    * ssh -i konnekt.pem ec2-user@<ip-privada>
 
 
 ## MQTT Data Generator
