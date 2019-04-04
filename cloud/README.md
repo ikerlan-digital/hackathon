@@ -19,7 +19,7 @@ Python or Java knowledge is required to fulfill the following tasks (it´s your 
     * Finally, push Open button
 * Introduce the username within the prompted window (username = ec2-user)
 * Connect via SSH to your personal machine:
-    * ssh -i konnekt.pem ec2-user@<private-ip>
+    * `ssh -i konnekt.pem ec2-user@<private-ip>`
  
 ## MQTT Data Generator
 
@@ -79,7 +79,7 @@ Las tareas se pueden resolver con conocimiento de Python o Java. (es vuestra dec
     * Finalmente, pulsar el botón Open.
 * Introducid el nombre de usuario en la ventaña emergente (username = ec2-user)
 * Conectaos vía SSH a vustra máquina personal:
-    * ssh -i konnekt.pem ec2-user@<ip-privada>
+    * `ssh -i konnekt.pem ec2-user@<ip-privada>`
 
 
 ## MQTT Data Generator
