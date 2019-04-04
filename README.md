@@ -51,10 +51,10 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
     * Python ([What Is](https://www.python.org/))
     * Java ([What Is](https://www.edureka.co/blog/what-is-java/))
 
-## Contacto
- * **Marco Gonzalez**: marco dot gonzalez at ikerlan dot es
- * **Aitor Urbieta**: aurbieta at ikerlan dot es
- * **Angel Conde**: aconde at ikerlan dot es
-
+## Contactos Ikerlan
+ * **Internet of Things**: marco.gonzalez@ikerlan.es aitor.ubieta@ikerlan.es
+ * **Big data**: aconde@ikerlan.es
+ * **Seguridad Industrial**: riglesias@ikerlan.es
+ * **Software confiable**: jparra@ikerlane.s
 
 Gracias por participar!
