@@ -3,12 +3,12 @@ import paho.mqtt.client as mqtt
 
 def on_connect(mqttc, obj, flags, rc):
     print("rc: " + str(rc))
+    mqttc.publish("NombreEquipo/pub", "Test send message");
 
 
 def on_message(mqttc, obj, msg):
     print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
     print("Publish into NombreEquipo/pub")
-    mqttc.publish("NombreEquipo/pub", "Message received");
 
 
 def on_publish(mqttc, obj, mid):
@@ -32,6 +32,5 @@ if __name__ == "__main__":
     # Uncomment to enable debug messages
     # mqttc.on_log = on_log
     mqttc.connect("127.0.0.1", 1883, 60)
-    mqttc.subscribe("NombreEquipo/sub", 0)
 
     mqttc.loop_forever()
