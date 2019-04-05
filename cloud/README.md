@@ -52,6 +52,11 @@ The broker is accessible at: ```ec2-63-35-224-92.eu-west-1.compute.amazonaws.com
 ## Develop a Dashboard in order to be able to see incoming data
 
  * Install and configure [Grafana](https://grafana.com/) in order to develop on top of it an easy visualization of the incoming data (develop a Grafana ```dashboard```). 
+ 
+
+<p align="center">
+  <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/tunnel.png">
+</p>
 
 ## Real Time processing of incoming data
 
@@ -104,7 +109,6 @@ Descargaros el script usando el comando ```wget```.
 
 El broker MQTT esta disponible en: ```ec2-63-35-224-92.eu-west-1.compute.amazonaws.com```
 
-
 ## Guardar datos de sensores en una base de datos de Time Series
 
  * Instalar una base de datos de Time Series como puede ser [InfluxDB](https://portal.influxdata.com/downloads/)
@@ -122,6 +126,11 @@ El broker MQTT esta disponible en: ```ec2-63-35-224-92.eu-west-1.compute.amazona
 ## Desarrollar un Dashboard para visualizar en tiempo real los datos entrantes
 
  * Instalar y configurar [Grafana](https://grafana.com/) para poder desarrollar un ```dashboard``` de Grafana manera sencilla de tal forma que se puedan ver los datos de entrada.
+
+<p align="center">
+  <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/tunnel.png">
+</p>
+
 
 ## Procesamiento en tiempo real de los datos
 
