@@ -99,6 +99,15 @@ EJ: mosquitto_pub -h "192.168.1.222" -t "NombreEquipo" -m "TEST" permite publica
 El nodo edge puede implementar inteligencia para desarrollar un sistema de alarmas. Se valorará si se puede setear un límite o threshold a las variables recibidas desde el nodo sensor, que en el caso de ser superado genere un mensaje asíncrono que se mande a la nube.
 
 ## Tips!
+### Programacion
+Pasar de array de bytes a unsigned int.
+```
+for (int k = 1; k < 9; k++)
+			{
+				dato <<= 8;
+				dato |= (uint64_t) buf[k];
+			}
+```
 ### Protocolos comunicaciones IoT
 Los protocolos estándar de comunicaciones IoT más comunes son los siguientes:
 
