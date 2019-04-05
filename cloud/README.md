@@ -55,7 +55,7 @@ The broker is accessible at: ```ec2-63-35-224-92.eu-west-1.compute.amazonaws.com
  
 
 <p align="center">
-  <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/tunnel.png">
+  <img width="450" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/tunnel.png">
 </p>
 
 ## Real Time processing of incoming data
@@ -128,7 +128,7 @@ El broker MQTT esta disponible en: ```ec2-63-35-224-92.eu-west-1.compute.amazona
  * Instalar y configurar [Grafana](https://grafana.com/) para poder desarrollar un ```dashboard``` de Grafana manera sencilla de tal forma que se puedan ver los datos de entrada.
 
 <p align="center">
-  <img width="650" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/tunnel.png">
+  <img width="450" height="351" src="https://github.com/ikerlan2015/hackathon/blob/master/cloud/tunnel.png">
 </p>
 
 
