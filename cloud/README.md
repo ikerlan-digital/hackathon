@@ -25,7 +25,11 @@ Python or Java knowledge is required to fulfill the following tasks (it´s your 
 
 A python3 script is provided in this folder as a random data generator to provide the basic data to test the system.
 
-You need to install the paho-mqtt dependency (python3 -m pip install paho-mqtt) and modify the code to configure the MQTT authentication and topic.
+Install python3: ```sudo yum install python3```.
+
+You need to install the paho-mqtt dependency (```sudo python3 -m pip install paho-mqtt```) and modify the code to configure the MQTT authentication and topic.
+
+Descargaros el script usando el comando ```wget```. 
 
 ## MQTT Broker
 
@@ -90,7 +94,11 @@ Las tareas se pueden resolver con conocimiento de Python o Java. (es vuestra dec
 
 Se provee de un script de python3 script que permite generar datos aleatorios para poder probar el sistema.
 
-Las dependencias necesarias son (python3 -m pip install paho-mqtt), modifica el código para configurar la conexión a MQTT, el topic y la autenticación.
+Install python3: ```sudo yum install python3```.
+
+Las dependencias necesarias son (```sudo python3 -m pip install paho-mqtt```), modifica el código para configurar la conexión a MQTT, el topic y la autenticación.
+
+Descargaros el script usando el comando ```wget```. 
 
 ## MQTT Broker
 
