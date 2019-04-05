@@ -14,7 +14,7 @@ Python or Java knowledge is required to fulfill the following tasks (it´s your 
 ## Instructions to connect to the Cloud via SSH
 * Convert the key certificate included in your USBs to a valid format for Putty (convert from .pem to .ppk). Follow [these instructions](https://www2.linuxacademy.com/howtoguides/17385-use-putty-to-access-ec2-linux-instances-via-ssh-from-windows/).
 * Use Putty to connect via SSH to the master node:
-    * Hostname (IP): ec2-18-203-246-88.eu-west-1.compute.amazonaws.com
+    * Hostname (IP): ```ec2-18-203-246-88.eu-west-1.compute.amazonaws.com```
     * Upload the generated private key (.ppk). In the left panel, go to SHH -> Auth -> Browse
     * Finally, push Open button
 * Introduce the username within the prompted window (username = ec2-user)
@@ -29,7 +29,7 @@ You need to install the paho-mqtt dependency (python3 -m pip install paho-mqtt) 
 
 ## MQTT Broker
 
-The broker is accessible at: ec2-63-35-224-92.eu-west-1.compute.amazonaws.com
+The broker is accessible at: ```ec2-63-35-224-92.eu-west-1.compute.amazonaws.com```
  
 ## Store sensor data in a Time Series Database 
 
@@ -78,7 +78,7 @@ Las tareas se pueden resolver con conocimiento de Python o Java. (es vuestra dec
 ## Instrucciones para conectarse al Cloud via SSH
 * Convertir el certificado incluido en vuestros USBs a un formato válido para Putty (convertir de .pem a .ppk). Seguid [estas instrucciones](https://www2.linuxacademy.com/howtoguides/17385-use-putty-to-access-ec2-linux-instances-via-ssh-from-windows/).
 * Usar Putty para conectaros via SSH al nodo maestro:
-    * Hostname (IP): ec2-18-203-246-88.eu-west-1.compute.amazonaws.com
+    * Hostname (IP): ```ec2-18-203-246-88.eu-west-1.compute.amazonaws.com```
     * Añadir la clave privada generada anteriormente (.ppk). En el panel izquierdo, id a SHH -> Auth -> Browse.
     * Finalmente, pulsar el botón Open.
 * Introducid el nombre de usuario en la ventaña emergente (username = ec2-user)
@@ -94,7 +94,7 @@ Las dependencias necesarias son (python3 -m pip install paho-mqtt), modifica el 
 
 ## MQTT Broker
 
-El broker MQTT esta disponible en: ec2-63-35-224-92.eu-west-1.compute.amazonaws.com
+El broker MQTT esta disponible en: ```ec2-63-35-224-92.eu-west-1.compute.amazonaws.com```
 
 
 ## Guardar datos de sensores en una base de datos de Time Series
