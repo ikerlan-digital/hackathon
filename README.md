@@ -52,7 +52,7 @@ Una pequeña guía para cada reto está disponible en los siguientes links:
     * Java ([What Is](https://www.edureka.co/blog/what-is-java/))
 
 ## Contactos Ikerlan
- * **Internet of Things**: marco.gonzalez@ikerlan.es aitor.ubieta@ikerlan.es
+ * **Internet of Things**: marco.gonzalez@ikerlan.es aurbieta@ikerlan.es
  * **Big data**: aconde@ikerlan.es
  * **Seguridad Industrial**: riglesias@ikerlan.es
  * **Software confiable**: jparra@ikerlan.es
